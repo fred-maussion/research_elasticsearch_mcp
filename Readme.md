@@ -1,16 +1,29 @@
 # Experimentation of MCP with Elasticsearch
 
-## Connect VSCode to Elasticsearch using MCP
+<!-- vscode-markdown-toc -->
+* 1. [Connect VSCode to Elasticsearch using MCP](#ConnectVSCodetoElasticsearchusingMCP)
+	* 1.1. [Prerequisites](#Prerequisites)
+	* 1.2. [Configuration](#Configuration)
+	* 1.3. [Tips](#Tips)
+		* 1.3.1. [Know what features are supported](#Knowwhatfeaturesaresupported)
 
-For this part we are going to use the extension _continue_ who can connect to 
+<!-- vscode-markdown-toc-config
+	numbering=true
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
 
-### Prerequisites
+##  1. <a name='ConnectVSCodetoElasticsearchusingMCP'></a>Connect VSCode to Elasticsearch using MCP
+
+During this research, we are going to use vscode along with the extension _continue_ to interact with MCP servers.
+
+###  1.1. <a name='Prerequisites'></a>Prerequisites
 
 - [ ] Download and install [_VSCode_](https://code.visualstudio.com/download)
 - [ ] Download and install [_continue_](https://marketplace.visualstudio.com/items?itemName=Continue.continue) in vscode
 - [ ] Download and install _Docker_ or npm
 
-### Configuration
+###  1.2. <a name='Configuration'></a>Configuration
 
 1. open a new chat in continue
 2. in the tool bar click on _MCP_ and _Add MCP Servers_. It will create a Yaml file inside the local project folder _.continue/mcpServers_. If you want to configure it globally, you can setup the Yaml file under your home directory (eg. ~/.continue/config.yaml)
@@ -105,9 +118,9 @@ From there you can ask natural question to you elasticsearch server. For example
 
 ![Example answer](img/mcp_example_answer.png)
 
-### Tips
+###  1.3. <a name='Tips'></a>Tips
 
-#### Know what features are supported
+####  1.3.1. <a name='Knowwhatfeaturesaresupported'></a>Know what features are supported
 
 If you want to know what are the feature exposed by the MCP server, you can overlay your mouse to the continue toolbox like this :
 
